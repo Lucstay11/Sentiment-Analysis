@@ -6,6 +6,13 @@ Recognition model capable of analyzing text in several languages and determining
 ```
 $ make
 ```
+**`
+ Usage: 
+  [-lang <language>] -f <file_to_analyze> or -l <line_to_analyse>
+    Or directly import your positive/negative files:
+  -f <file_to_analyze> -pos <positive_words_file> -neg <negative_words_file>
+`**
+  
 ```
-$ npm install
+$ ./main -lang -l "Im very Happy!"
 ```
